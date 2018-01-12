@@ -1,0 +1,21 @@
+{
+    "name": "fishday/yii2-blog",
+    "description": "Blog module for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Dernov",
+            "email": "msimych@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fishday\\blog\\": ""
+        }
+    }
+}
